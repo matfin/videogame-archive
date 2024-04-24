@@ -15,6 +15,7 @@ This project makes use of the following:
 - The [History WebAPI](https://developer.mozilla.org/en-US/docs/Web/API/History_API) and [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) to manage bookmarking.
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) and [Jest](https://jestjs.io/) for testing.
 - UI styling with [styled components](https://styled-components.com/)
+- Import path aliasing for cleaner imports with [Craco](https://craco.js.org/) to facilitate this.
 
 ## Install and run
 
@@ -22,10 +23,12 @@ You will need [NodeJS](https://nodejs.org/en) (used 18.17.0 here) and [yarn](htt
 
 - open the project root directory
 - `$> yarn` to install dependencies.
-- `$> yarn start` to boot the server and the app itself.
+- `$> yarn start` to boot the server and the client.
 - `$> yarn test:ci` to run all tests just once.
 - `$> tarn test:coverage` to run all tests with coverage.
 - `$> yarn test` to run tests in watch mode.
+- `$> yarn lint:style` to run the linter on all styles.
+- `$> yarn checks` to run tests with coverage and then lint styles.
 - `$> yarn nuke` to remove and reinstall all dependencies.
 
 ## What was learned
@@ -39,8 +42,6 @@ You will need [NodeJS](https://nodejs.org/en) (used 18.17.0 here) and [yarn](htt
 - Implement [debouncing](https://davidwalsh.name/javascript-debounce-function) for when filtering is applied by typing.
 - Add tests for the search service and state and reach full test coverage.
 - Responsive styling for the UI.
-- Add [prettier](https://prettier.io/) and use single quotes insead of double quotes.
 - Pass filtering logic to the server with query string parameters. This is all done client-side for now.
 - Use a tool like [Lerna](https://lerna.js.org/) to run the client and server.
 - Handle error scenarios such as a slow or non-existent connection. Right now it's the happy path.
-- [Path aliases](https://hackernoon.com/how-to-configure-path-aliases-in-frontend-projects-in-the-native-way) to improve path imports.
