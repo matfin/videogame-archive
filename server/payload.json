@@ -1,0 +1,143 @@
+{
+  "publishers": [
+    {
+      "name": "Capcom",
+      "titles": [
+        {
+          "name": "Street Fighter",
+          "platforms": ["Snes", "Megadrive"]
+        },
+        {
+          "name": "Resident Evil",
+          "platforms": ["PlayStation", "Saturn"]
+        },
+        {
+          "name": "Monster Hunter",
+          "platforms": ["PC", "PlayStation", "Switch"]
+        },
+        {
+          "name": "Devil May Cry",
+          "platforms": ["PC", "XBox", "PlayStation", "Switch"]
+        }
+      ]
+    },
+    {
+      "name": "Rockstar Games",
+      "titles": [
+        {
+          "name": "Grand Theft Auto",
+          "platforms": ["PlayStation", "XBox", "PC"]
+        },
+        {
+          "name": "Bully",
+          "platforms": ["PlayStation", "XBox"]
+        },
+        {
+          "name": "Red Dead Redemption",
+          "platforms": ["PlayStation", "XBox", "PC"]
+        }
+      ]
+    },
+    {
+      "name": "Sega",
+      "titles": [
+        {
+          "name": "Sonic The Hedgehog",
+          "platforms": [
+            "Megadrive",
+            "GameGear",
+            "Dreamcast",
+            "XBox",
+            "PlayStation",
+            "Saturn"
+          ]
+        },
+        {
+          "name": "Crazy Taxi",
+          "platforms": ["PC", "PlayStation", "Dreamcast", "XBox"]
+        },
+        {
+          "name": "Streets of Rage",
+          "platforms": ["Megadrive", "PlayStation", "XBox"]
+        },
+        {
+          "name": "Golden Axe",
+          "platforms": ["PlayStation", "Megadrive", "XBox"]
+        },
+        {
+          "name": "Virtua Racing",
+          "platforms": ["Megadrive", "Saturn"]
+        }
+      ]
+    },
+    {
+      "name": "Nintendo",
+      "titles": [
+        {
+          "name": "Super Mario Brothers",
+          "platforms": ["Snes", "Switch", "N64", "GameBoy"]
+        },
+        {
+          "name": "Mario Kart",
+          "platforms": ["N64", "Snes", "Switch", "Wii"]
+        },
+        {
+          "name": "Goldeneye",
+          "platforms": ["Wii", "N64", "Switch"]
+        }
+      ]
+    },
+    {
+      "name": "Namco",
+      "titles": [
+        {
+          "name": "Ridge Racer",
+          "platforms": ["PlayStation"]
+        },
+        {
+          "name": "Tekken",
+          "platforms": ["PlayStation", "XBox"]
+        },
+        {
+          "name": "Pac-Man",
+          "platforms": ["PlayStation", "XBox", "PC"]
+        },
+        {
+          "name": "Galaga",
+          "platforms": ["PlayStation"]
+        }
+      ]
+    },
+    {
+      "name": "Atari",
+      "titles": [
+        {
+          "name": "Alien VS Predator",
+          "platforms": ["Jaguar"]
+        },
+        {
+          "name": "ET",
+          "platforms": ["2600", "Lynx"]
+        }
+      ]
+    },
+    {
+      "name": "ID Software",
+      "titles": [
+        {
+          "name": "Doom",
+          "platforms": [
+            "3DO",
+            "Saturn",
+            "PlayStation",
+            "PC",
+            "Jaguar",
+            "Snes",
+            "Switch",
+            "N64"
+          ]
+        }
+      ]
+    }
+  ]
+}

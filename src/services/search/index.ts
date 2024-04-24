@@ -1,0 +1,1 @@
+export { fetchGames } from './search';
